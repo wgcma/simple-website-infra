@@ -12,3 +12,6 @@ terraform {
   required_version = ">= 0.14.9"
 }
 
+resource "aws_s3_bucket" "wingma-tf-jenkins-1" {
+  bucket = "wingma-tf-jenkins-1"
+}
